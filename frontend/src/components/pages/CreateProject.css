@@ -1,0 +1,66 @@
+/* CreateProject.css */
+
+.create-project-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-project-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-project-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-project-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.create-project-form input,
+.create-project-form textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.create-project-form button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create-project-form button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}

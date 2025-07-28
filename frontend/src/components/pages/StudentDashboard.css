@@ -1,0 +1,56 @@
+.student-dashboard {
+  width: 98vw;
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f9f9f9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.project-card p {
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.project-card button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-card button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
