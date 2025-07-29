@@ -8,7 +8,8 @@ function Signup() {
     name: '',
     email: '',
     password: '',
-    confirmPassword: ''
+    confirmPassword: '',
+    role:'student'
   });
 
   const [error, setError] = useState('');
@@ -72,6 +73,16 @@ function Signup() {
           onChange={handleChange}
           required
         />
+        <select
+          name="role"
+          value={formData.role}
+          onChange={handleChange}
+          required
+        >
+          <option value="student">Student</option>
+          <option value="professor">Professor</option>
+        </select>
+
         <button type="submit">Signup</button>
       </form>
       <p>
