@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 8080;
 
 
 const corsOptions = {
-  origin: 'http://localhost:5174', 
+  origin: 'http://localhost:5173', 
 };
 
 
