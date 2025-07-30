@@ -81,6 +81,7 @@ function Signup() {
         >
           <option value="student">Student</option>
           <option value="professor">Professor</option>
+          <option value="admin">Admin</option>
         </select>
 
         <button type="submit">Signup</button>
